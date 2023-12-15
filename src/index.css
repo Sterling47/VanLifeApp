@@ -1,3 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF7ED;
+  font-family: "Inter", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 body {
-  background: rgb(216, 216, 136);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34.25944rem;
+  height: 4.67175rem;
+  padding: 1.60506rem 6.64275rem 1.57175rem 6.625rem;
+  flex-shrink: 0;
+  background: #252525;
+}
+.hostNav a:hover {
+  color: blue;
 }

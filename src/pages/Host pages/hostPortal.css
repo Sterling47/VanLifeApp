@@ -1,0 +1,56 @@
+.hostNav {
+   
+    margin: 2.5rem;
+}
+
+
+.hpLink:hover {
+    font-size: larger;
+    border-bottom: 2px rgb(141, 128, 128) solid ;
+}
+
+
+.vanBox {
+    height: 3rem;
+    width: 10rem;
+    background-color: antiquewhite;
+    margin: 0.5rem;
+    
+}
+
+.welcomeDash {
+    background: #FFEAD0;
+    width: 34.25rem;
+    height: 13.6875rem;
+    padding-left: 1.62rem;
+    line-height: 1.375rem;
+}
+
+.welcomeDash .amount {
+    color: #161616;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 2.375rem; /* 79.167% */
+}
+
+.reviewDash {
+    display: flex;
+    align-items: center;
+    background: #FFDDB2;
+    width: 34.25rem;
+    height: 7.0625rem;
+    padding-left: 1.62rem;
+}
+
+.dashVans {
+    padding-left: 1.62rem;
+    width: 34.25rem;
+}
+
+.vanBox {
+    height: 20rem;
+    width: 34.25rem;
+    background: black;
+}

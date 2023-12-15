@@ -1,0 +1,22 @@
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.46) 0%, rgba(0, 0, 0, 0.46) 100%), url(/src/assets/image53.png), lightgray 0px -65.191px / 100% 178.109% no-repeat;
+    width: 34.25944rem;
+    height: 24.1685rem;
+    flex-shrink: 0;
+    background-position: center;
+}
+  
+.App h1 {
+    color: #FFF7ED;
+}
+  
+.App span {
+    color: rgb(190, 123, 40);
+}
+  

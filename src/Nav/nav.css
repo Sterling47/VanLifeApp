@@ -1,0 +1,41 @@
+.mainNav {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 34.25944rem;
+    height: 4.67175rem;
+    background: #252525;
+}
+  
+
+.vanLife{
+    text-decoration: none;
+    color: #FFF7ED;
+  
+}
+  
+.vanLife:hover {
+    color: rgb(190, 123, 40);
+}
+
+.bttn {
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    background: rgb(190, 123, 40);
+}
+
+.bttn:hover {
+    padding: 0.3rem;
+}
+
+.bttnActive {
+    color: red;
+    text-decoration: none;
+    margin: 1rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    background: rgb(190, 123, 40);
+}

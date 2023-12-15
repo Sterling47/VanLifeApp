@@ -1,0 +1,17 @@
+
+.van-tile {
+    width: 30.875rem;
+    margin: 1rem;
+    padding: 1rem;
+    background: rgba(241, 184, 28, 0.26);
+    border-radius: 0.45rem;
+    height: fit-content;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  
+  .van-tile img {
+    width: 22rem;
+    height: 24rem;
+    border-radius: 0.6rem;
+  }
+  
