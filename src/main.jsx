@@ -29,7 +29,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path='reviews' element={<Reviews />} />
           <Route path='income' element={<Income />} />
           <Route path='vans' element={<YourVans />} />
-          <Route path='vans/:hostId' element={<YourVans />} />
+          <Route path='vans/:hostId' element={<ListedVan />} />
         </Route>  
        </Route>          
     </Routes>

@@ -49,8 +49,18 @@
     width: 34.25rem;
 }
 
+
+
 .vanBox {
-    height: 20rem;
+    display: flex;
+    height: 12rem;
     width: 34.25rem;
-    background: black;
+    background: #FFDDB2;
+    border-radius: 0.25rem;
+}
+
+.vanBox img {
+    height: 8rem;
+    width: 8rem; 
+    margin: 2rem;
 }

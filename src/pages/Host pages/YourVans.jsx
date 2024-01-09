@@ -5,23 +5,26 @@ import { useParams } from 'react-router-dom';
 import '../../server'
 
 const YourVans = () => {
-  const params = useParams();
+
   const [vans, setVan] = useState([]);
 
   useEffect(() => {
-    fetch(`/api/host/vans/${params.hostId}`)
+    fetch(`/api/host/vans/`)
     .then(res => res.json())
     .then(data => setVan(data.vans))
-       console.log(params)
-  }, [params.hostId]);
+  }, []);
 
 
   const hostVans = vans.map(van => (
-    <div key={van.id} className='vanBox'>
-      <NavLink to={`/host/vans/${van.id}`}> 
-        <img src={van.imageUrl} alt="img" />
-      </NavLink>
-    </div>
+    <NavLink to={`/host/vans/${van.id}`} key={van.id} className='vanBoxWrapper'>
+      <div key={van.id} className='vanBox'>
+        <img src={van.imageUrl} alt={`photo of ${van.name}`} />
+        <div className="vanHostInfo">
+          <h3>{van.name}</h3>
+          <p>{van.price}/day</p>
+        </div>
+      </div>
+    </NavLink>
   ));
 
   return (
